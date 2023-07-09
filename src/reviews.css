@@ -1,0 +1,109 @@
+.reviews-container {
+  padding-top: 50px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.reviews-container h3 {
+  text-align: center;
+}
+
+.reviews-container > .review-block {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.reviews-container > .review-block > div {
+  width: 100%;
+  max-width: 300px;
+}
+
+.reviews-container > .review-block > div > svg {
+  width: 100%;
+}
+
+.reviews-container .review-box {
+  background-color: #f2f2f8;
+  padding-bottom: 5%;
+  padding-top: 2%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.reviews-container .review-box > #backr,
+.reviews-container .review-box > #nextr {
+  margin-bottom: 5px !important;
+  width: 90%;
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow-x: auto;
+  margin: 0 auto;
+  padding-left: 50%;
+}
+
+.reviews-container .review-box > #backr::-webkit-scrollbar,
+.reviews-container .review-box > #nextr::-webkit-scrollbar {
+  display: none;
+}
+
+.reviews-container .review-box > #backr::-webkit-scrollbar-track,
+.reviews-container .review-box > #nextr::-webkit-scrollbar-track {
+  display: none;
+}
+
+.reviews-container .review-box > #backr::-webkit-scrollbar-thumb,
+.reviews-container .review-box > #nextr::-webkit-scrollbar-thumb {
+  display: none;
+}
+
+.reviews-container .review-box > #backr > div,
+.reviews-container .review-box > #nextr > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 80%;
+}
+
+.reviews-container .review-box > div > div > img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 1000px) {
+  .reviews-container > .review-block {
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .reviews-container .review-box {
+    flex-wrap: nowrap;
+    padding: 0%;
+  }
+
+  .reviews-container .review-box > #backr,
+  .reviews-container .review-box > #nextr {
+    height: 400px;
+    min-width: 100%;
+    margin: 10px;
+    padding: 0%;
+    justify-content: space-evenly !important;
+  }
+
+  .reviews-container .review-box > #backr > div,
+  .reviews-container .review-box > #nextr > div {
+    min-width: 10%;
+    margin: 2%;
+    padding: 2%;
+  }
+}

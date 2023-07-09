@@ -1,0 +1,187 @@
+.sectionf {
+  background-color: white;
+}
+
+.sectionf header {
+  background-color: white;
+  border-bottom: 2px solid #603f8b;
+  box-shadow: 0px 3px 3px #532f82;
+}
+
+.sectionf header .search > circle {
+  stroke: #603f8b;
+}
+
+.sectionf header .search > path {
+  stroke: #603f8b;
+}
+
+.sectionf .box2 h4,
+.sectionf .box4 h4 {
+  color: #532f82;
+  font-size: 1.6em;
+}
+
+.sectionf .list-head {
+  font-size: 1.8em;
+  color: #321b51;
+}
+
+.sectionf .logo .logosvg path {
+  fill: #532f82 !important;
+}
+
+.sectionf .logo .logosvg .design2 {
+  fill: #c5a9ea !important;
+}
+
+nav > ul li a {
+  color: #686868;
+}
+
+nav > ul .sign,
+nav > ul .login {
+  color: #603f8b;
+}
+
+nav > ul .sign:hover,
+nav > ul .login:hover {
+  background-color: #532f82;
+}
+
+.sectionf .menu-icon > path,
+.sectionf #close-menu > path {
+  fill: #321b51;
+  stroke: #321b51;
+}
+
+.sectionf > div > div {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5%;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionf > div > div > div {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.sectionf > div > .box2 > div:last-child {
+  position: relative;
+}
+
+.sectionf > div > .box2 > div:last-child > img {
+  position: absolute;
+  right: 25%;
+}
+
+.sectionf > div > .box2 > div:last-child > .img1 {
+  right: 40%;
+  top: 50%;
+}
+
+.sectionf > div > .box2 > div:last-child > .img2 {
+  right: 45%;
+  top: 10%;
+}
+
+.sectionf > div > .box2 > div:last-child > .img3 {
+  right: -5%;
+  top: 35%;
+}
+
+.sectionf > div > div > .box4-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.sectionf > div > div > div > svg,
+.sectionf > div > div > div > img {
+  max-width: 100%;
+}
+
+.sectionf > div > div > .box3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -99;
+}
+
+.sectionf > div > div > div > .phone {
+  transform: scale(150%);
+  margin: 0 auto;
+  margin-left: 20%;
+}
+
+.sectionf > div > div > div {
+  z-index: 9;
+}
+
+.sectionf > div > div > .box4-1 > * {
+  max-width: 50%;
+}
+
+.sectionf > div > div > .box4-1 > * > * {
+  width: 100%;
+}
+
+footer {
+  background-color: #603f8b;
+}
+
+@media only screen and (max-width: 1000px) {
+  .sectionf header nav > ul li a {
+    color: #532f82;
+  }
+
+  .sectionf > div > div > div > .chat {
+    position: relative;
+    bottom: 30px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .sectionf header nav > ul li a {
+    color: #532f82;
+  }
+
+  .sectionf nav > ul .login,
+  .sectionf nav > ul .sign {
+    color: #532f82 !important;
+  }
+
+  .sectionf nav > ul .sign:hover,
+  .sectionf nav > ul .login:hover {
+    background-color: #532f82 !important;
+    color: white !important;
+  }
+
+  footer {
+    margin-top: 15%;
+  }
+
+  .sectionf > div > div > div > .phone {
+    transform: scale(170%);
+    position: relative;
+    left: 20%;
+  }
+  .sectionf > div > div > div > .chat {
+    transform: scale(80%);
+    position: relative;
+    right: 20%;
+  }
+
+  .sectionf > div > .box2 {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+  }
+
+  .sectionf > div > .box2 > div:last-child {
+    right: 5%;
+  }
+}

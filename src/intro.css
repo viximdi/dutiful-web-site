@@ -1,0 +1,176 @@
+main {
+  width: 90%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  z-index: 2;
+}
+
+main > * {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+main > div:first-child form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+main > div:first-child form > * {
+  width: 100%;
+}
+
+main > div:first-child form > div {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: #391766;
+}
+
+main > div:first-child form > div > div {
+  box-sizing: border-box;
+  width: 2px;
+  height: 90%;
+  padding: 10px 0;
+  background-color: rgb(234, 209, 231);
+  color: white;
+}
+
+main > div:first-child form > div > label {
+  width: 40%;
+  height: 100%;
+}
+
+main > div:first-child form > div > label > input {
+  box-sizing: border-box;
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  background: #391766;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 1rem;
+}
+
+button {
+  padding: 15px 0;
+  border-radius: 10px;
+  border: none;
+  color: #391766;
+  font-weight: 700;
+  transition: 200ms;
+}
+
+button:hover {
+  transform: scale(90%);
+}
+
+.content > * {
+  width: 100%;
+  max-width: 500px;
+  position: relative;
+  color: rgb(221, 198, 219);
+  margin-bottom: 40px;
+}
+
+.content > h1 {
+  font-size: 2rem;
+  color: rgb(231, 229, 229);
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.content > h1 > svg {
+  position: absolute;
+  top: 80%;
+  right: 25%;
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  min-height: 300px;
+}
+
+.video-container > svg {
+  position: absolute;
+}
+
+.video-container iframe {
+  width: 90%;
+  height: 90%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.video-container .deco1 {
+  top: -12%;
+  left: -5%;
+}
+
+.video-container .deco0 {
+  top: -5%;
+  left: 50%;
+  z-index: 30;
+  font-weight: 900;
+}
+
+.video-container .deco2 {
+  top: 60%;
+  left: 50%;
+  z-index: -1;
+}
+
+@media only screen and (min-width: 1000px) {
+  main {
+    margin-top: 10%;
+  }
+
+  main > div:first-child form {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #391766;
+    border-radius: 10px;
+    padding-top: 5px;
+  }
+
+  main > div:first-child form > div {
+    width: 70%;
+  }
+
+  main > div:first-child form > button {
+    width: 20%;
+  }
+
+  button {
+    width: 20%;
+    padding: 20px 0;
+  }
+
+  .content > h1 {
+    font-size: 2.5rem;
+  }
+
+  .content > p {
+    font-size: 1.3rem;
+  }
+
+  .content > h1 > svg {
+    position: absolute;
+    top: 80%;
+    right: 10%;
+  }
+}

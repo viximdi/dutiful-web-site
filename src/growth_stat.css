@@ -1,0 +1,228 @@
+* {
+  box-sizing: border-box;
+}
+
+.growth-stat_section {
+  position: relative;
+  background-color: white;
+}
+
+.growth-stat_section > h2 {
+  position: absolute;
+  padding-top: 4%;
+  width: 100%;
+  text-align: center;
+}
+
+.growth-stat_section > .img-container {
+  min-width: 100vw;
+  padding: 10%;
+  background: #f6f7f9;
+}
+
+.growth-stat_section > .img-container > img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.growth-stat_section > .stat-container {
+  background: #532f82;
+  color: white;
+  width: 100%;
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-top: -31%;
+  position: relative;
+}
+
+.growth-stat_section > .stat-container > div {
+  width: 80%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.growth-stat_section .providers-container {
+  padding-top: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.growth-stat_section .providers-container > div:first-child {
+  max-width: 800px;
+  text-align: center;
+  padding-bottom: 30px;
+  margin-top: 5%;
+  color: #532f82;
+}
+
+.growth-stat_section .providers-container > div:first-child p {
+  text-align: center;
+  padding-right: 20px;
+  color: rgb(98, 85, 103);
+  font-size: 1em;
+}
+
+.growth-stat_section .providers {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px auto;
+}
+
+.providers > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 90%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.providers .see-more {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.providers input[type="radio"] {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .providers > div > div {
+    width: 100%;
+    max-height: 400px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+  }
+}
+
+.providers > div > div > svg {
+  min-width: 100%;
+  max-height: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+  .next,
+  .back {
+    display: none;
+  }
+
+  .providers > div:first-child {
+    margin-bottom: 20px;
+  }
+
+  #next {
+    display: none;
+  }
+
+  .providers input[type="radio"]:checked ~ #next {
+    display: flex;
+  }
+
+  .providers input[type="radio"]:checked ~ .see-more {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .growth-stat_section > .stat-container {
+    flex-direction: row;
+    margin-top: -20.5%;
+  }
+
+  .growth-stat_section > .img-container {
+    padding: 20%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+  }
+
+  .growth-stat_section > h2 {
+    font-size: 2rem;
+    padding: 2%;
+  }
+
+  .growth-stat_section .providers-container {
+    padding-top: 80px;
+  }
+
+  .growth-stat_section .providers-container > div:first-child {
+    padding-bottom: 40px;
+    max-width: 1000px;
+    font-size: 1.2em;
+  }
+
+  .growth-stat_section .providers,
+  .reviews-container .review-box {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+  .providers::-webkit-scrollbar {
+    display: none;
+  }
+
+  .providers::-webkit-scrollbar-track {
+    display: none;
+  }
+
+  .providers::-webkit-scrollbar-thumb {
+    display: none;
+  }
+
+  .growth-stat_section .providers > div:first-child {
+    flex-direction: row;
+    min-width: 100%;
+  }
+
+  .growth-stat_section .providers > div {
+    min-width: 100%;
+    position: relative;
+  }
+
+  .growth-stat_section .providers > div > div {
+    width: 20%;
+    justify-content: space-around;
+  }
+
+  .growth-stat_section .providers > div > div > svg {
+    width: 100%;
+  }
+
+  .next,
+  .back {
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+  }
+
+  .next svg > circle,
+  .back svg > g {
+    fill: rgb(165, 157, 157);
+    stroke: rgb(171, 167, 167);
+  }
+
+  .back {
+    left: 4%;
+  }
+
+  .next {
+    right: 4%;
+  }
+
+  .see-more {
+    display: none !important;
+  }
+}

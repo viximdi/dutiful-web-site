@@ -1,0 +1,224 @@
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+header {
+  padding: 10px 40px;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #532f82;
+  position: relative;
+  z-index: 100;
+  border-bottom: 1px solid white;
+  box-shadow: 0px 2px 2px #f7f6f8;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: last baseline;
+    position: relative;
+    width: 60%;
+    padding-right: 5%;
+    background-color: transparent;
+  }
+
+  nav > ul {
+    box-sizing: border-box;
+    background-color: transparent;
+    position: absolute;
+    top: 120%;
+    right: 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    max-width: 800px;
+    transition: 500ms;
+    border-top-left-radius: 20%;
+    z-index: 99;
+  }
+
+  nav > ul::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 5%;
+    background-color: #532f82;
+    transform-origin: top;
+    transform: skew(-100deg);
+    overflow: hidden;
+  }
+
+  nav > ul::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 70%;
+    bottom: 0;
+    width: 1%;
+    background-color: #532f82;
+    transform-origin: left;
+    transform: skewY(50deg);
+    overflow: hidden;
+  }
+
+  #menu-closer {
+    display: none;
+    color: white;
+  }
+
+  #uncheck[type="checkbox"]:checked ~ ul {
+    width: 80vw;
+    max-width: 800px;
+    height: 80vh;
+    padding: 20%;
+    box-shadow: 0.2px 0.2px 2px black;
+    background-color: white;
+  }
+
+  #uncheck[type="checkbox"]:checked ~ #menu-closer {
+    display: flex;
+  }
+
+  #uncheck[type="checkbox"]:checked ~ #menu-openner {
+    display: none;
+  }
+
+  nav > ul .login,
+  nav > ul .sign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0;
+    width: 150px;
+    max-width: 60%;
+    height: 10px;
+    padding: 20px 40px;
+    background-color: #f4f0fb;
+    color: #532f82;
+  }
+
+  nav > ul .sign:hover,
+  nav > ul .login:hover {
+    background-color: #532f82;
+    color: white !important;
+  }
+
+  nav > ul .login {
+    position: relative;
+    top: 20%;
+  }
+
+  .search {
+    display: none;
+  }
+}
+
+nav > ul li {
+  list-style-type: none;
+}
+
+header nav > ul li a {
+  font-weight: 500;
+  color: #532f82;
+  text-decoration: none;
+}
+
+nav > ul .sign {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #532f82;
+}
+
+nav > ul .sign,
+nav > ul .login {
+  font-weight: 800;
+  border-radius: 5px;
+}
+
+nav > ul li a:hover {
+  color: #b9a3d7;
+}
+
+@media only screen and (min-width: 1000px) {
+  header {
+    padding: 20px 70px;
+  }
+
+  #menu-openner,
+  #menu-closer {
+    display: none;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: last baseline;
+    position: relative;
+    width: 70%;
+  }
+
+  nav > ul {
+    box-sizing: border-box;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 800px;
+    border-top-left-radius: 20%;
+    z-index: 99;
+    align-items: center;
+  }
+
+  header nav > ul li a {
+    color: rgb(232, 210, 244);
+  }
+
+  nav > ul .login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid transparent;
+    padding: 8% 35px;
+    margin-left: 50%;
+  }
+
+  nav > ul .sign {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(197, 170, 208);
+    padding: 8% 25px;
+  }
+
+  nav > ul .login,
+  nav > ul .sign {
+    color: white !important;
+  }
+
+  nav > ul .sign:hover,
+  nav > ul .login:hover {
+    background-color: #291446 !important;
+    color: white !important;
+    border: 2px solid rgb(197, 170, 208);
+    color: rgb(232, 210, 244);
+  }
+}
