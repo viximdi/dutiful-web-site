@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.590f484f.css",
-    "main.js": "/static/js/main.edac991c.js",
-    "static/media/dutiful_growth.png": "/static/media/dutiful_growth.5bb8ce2f61f471e34cc7.png",
-    "static/media/phone.png": "/static/media/phone.9882a90446495a9780d9.png",
-    "static/media/chat.png": "/static/media/chat.1e69c383cc035de95b86.png",
-    "static/media/overview.png": "/static/media/overview.f4b897522518a064fcd4.png",
-    "static/media/Calendar.png": "/static/media/Calendar.48f3633d38e082824166.png",
-    "static/media/review.png": "/static/media/review.ce2db7713611de90ecd5.png",
-    "static/media/booked.png": "/static/media/booked.044afdc6cf94ba910383.png",
-    "static/media/date.png": "/static/media/date.b23eb08a9381d4da7ccb.png",
-    "static/media/Group3.png": "/static/media/Group3.d9dc444147eb66dcd389.png",
-    "static/media/Group2.png": "/static/media/Group2.502281e4ce2d35a3cc1a.png",
-    "static/media/Group1.png": "/static/media/Group1.a5b0d40c7fddf9045468.png",
-    "index.html": "/index.html",
-    "main.590f484f.css.map": "/static/css/main.590f484f.css.map",
-    "main.edac991c.js.map": "/static/js/main.edac991c.js.map"
+    "main.css": "/viximdi/Dutiful-web/static/css/main.590f484f.css",
+    "main.js": "/viximdi/Dutiful-web/static/js/main.d72ec719.js",
+    "static/media/dutiful_growth.png": "/viximdi/Dutiful-web/static/media/dutiful_growth.5bb8ce2f61f471e34cc7.png",
+    "static/media/phone.png": "/viximdi/Dutiful-web/static/media/phone.9882a90446495a9780d9.png",
+    "static/media/chat.png": "/viximdi/Dutiful-web/static/media/chat.1e69c383cc035de95b86.png",
+    "static/media/overview.png": "/viximdi/Dutiful-web/static/media/overview.f4b897522518a064fcd4.png",
+    "static/media/Calendar.png": "/viximdi/Dutiful-web/static/media/Calendar.48f3633d38e082824166.png",
+    "static/media/review.png": "/viximdi/Dutiful-web/static/media/review.ce2db7713611de90ecd5.png",
+    "static/media/booked.png": "/viximdi/Dutiful-web/static/media/booked.044afdc6cf94ba910383.png",
+    "static/media/date.png": "/viximdi/Dutiful-web/static/media/date.b23eb08a9381d4da7ccb.png",
+    "static/media/Group3.png": "/viximdi/Dutiful-web/static/media/Group3.d9dc444147eb66dcd389.png",
+    "static/media/Group2.png": "/viximdi/Dutiful-web/static/media/Group2.502281e4ce2d35a3cc1a.png",
+    "static/media/Group1.png": "/viximdi/Dutiful-web/static/media/Group1.a5b0d40c7fddf9045468.png",
+    "index.html": "/viximdi/Dutiful-web/index.html",
+    "main.590f484f.css.map": "/viximdi/Dutiful-web/static/css/main.590f484f.css.map",
+    "main.d72ec719.js.map": "/viximdi/Dutiful-web/static/js/main.d72ec719.js.map"
   },
   "entrypoints": [
     "static/css/main.590f484f.css",
-    "static/js/main.edac991c.js"
+    "static/js/main.d72ec719.js"
   ]
 }
