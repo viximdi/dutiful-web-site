@@ -137,10 +137,6 @@ const Header = () => {
               </li>
             </ul>
           </nav>
-
-          {/*<Route path="/sevices" component={About} />
-      <Route path="/listing" component={Contact} />
-      <Route path="/bookmarks" component={Home} />*/}
         </header>
       </div>
     </>
