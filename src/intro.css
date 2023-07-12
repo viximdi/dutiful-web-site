@@ -141,9 +141,9 @@ button:hover {
   z-index: -1;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (max-width: 1000px) {
   .video-container .deco2 {
-    top: 70%;
+    top: 60%;
     left: 25%;
     z-index: -1;
   }
