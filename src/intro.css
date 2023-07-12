@@ -94,6 +94,8 @@ button:hover {
   color: rgb(231, 229, 229);
   font-family: "Courier New", Courier, monospace;
   font-weight: 900;
+  white-space: nowrap;
+  background-color: red;
 }
 
 .content > h1 > svg {
