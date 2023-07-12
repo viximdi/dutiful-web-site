@@ -78,7 +78,7 @@ button:hover {
 
 .content > * {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   position: relative;
   color: rgb(221, 198, 219);
   margin-bottom: 40px;
