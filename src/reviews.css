@@ -19,12 +19,13 @@
 }
 
 .reviews-container > .review-block > div {
-  width: 100%;
-  max-width: 300px;
+  width: 100% !important;
+  max-width: 500px;
 }
 
 .reviews-container > .review-block > div > svg {
-  width: 100%;
+  max-width: 100%;
+  padding-left: 2%;
 }
 
 .reviews-container .review-box {
@@ -89,6 +90,10 @@
   .reviews-container .review-box {
     flex-wrap: nowrap;
     padding: 0%;
+  }
+
+  .reviews-container > .review-block > div {
+    width: 23% !important;
   }
 
   .reviews-container .review-box > #backr,

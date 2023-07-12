@@ -4,15 +4,16 @@
 }
 
 .main-section {
-  background-color: white;
   margin: 100px 0;
   margin-bottom: -10px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  background-color: white;
 }
 
 .main-section .section-header {
+  width: 80%;
   text-align: center;
   max-width: 500px;
   font-size: 1.3em;
@@ -31,6 +32,9 @@
 
 .main-section .how-to-do-it_container > div {
   width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .main-section .how-to-do-it_container > div > svg {
@@ -38,7 +42,7 @@
 }
 
 .main-section .desktop-arrow {
-  display: none;
+  display: none !important;
 }
 
 .main-section > a {
@@ -57,11 +61,11 @@
 
 @media only screen and (min-width: 1000px) {
   .mobile_arrow {
-    display: none;
+    display: none !important;
   }
 
   .main-section .desktop-arrow {
-    display: flex;
+    display: flex !important;
     position: absolute;
   }
 

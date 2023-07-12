@@ -8,14 +8,14 @@ const Review = () => {
         <div className="review-block">
           <div>
             <svg
-              width="321"
-              height="200"
+              width="421"
+              height="300"
               viewBox="0 0 321 200"
               fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g filter="url(#filter0_d_93_561)">
                 <rect
-                  x="8"
+                  x="0"
                   y="6"
                   width="301"
                   height="180"
@@ -93,14 +93,14 @@ const Review = () => {
           </div>
           <div>
             <svg
-              width="321"
-              height="200"
+              width="421"
+              height="300"
               viewBox="0 0 321 200"
               fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g filter="url(#filter0_d_93_568)">
                 <rect
-                  x="8"
+                  x="0"
                   y="6"
                   width="301"
                   height="180"
@@ -248,14 +248,14 @@ const Review = () => {
           </div>
           <div>
             <svg
-              width="321"
-              height="200"
+              width="421"
+              height="300"
               viewBox="0 0 321 200"
               fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g filter="url(#filter0_d_93_575)">
                 <rect
-                  x="8"
+                  x="0"
                   y="6"
                   width="301"
                   height="180"
@@ -333,14 +333,14 @@ const Review = () => {
           </div>
           <div>
             <svg
-              width="321"
-              height="200"
+              width="421"
+              height="300"
               viewBox="0 0 321 200"
               fill="none"
               xmlns="http://www.w3.org/2000/svg">
               <g filter="url(#filter0_d_93_582)">
                 <rect
-                  x="8"
+                  x="0"
                   y="6"
                   width="301"
                   height="180"

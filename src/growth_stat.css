@@ -49,6 +49,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .growth-stat_section .providers-container > div:first-child {
@@ -59,11 +60,24 @@
   color: #532f82;
 }
 
+.growth-stat_section .providers-container > div:first-child h1 {
+  font-size: 1.8em;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+}
+
 .growth-stat_section .providers-container > div:first-child p {
   text-align: center;
   padding-right: 20px;
   color: rgb(98, 85, 103);
-  font-size: 1em;
+  font-size: 1.2em;
+}
+
+.growth-stat_section .providers-container p {
+  width: 80%;
+  margin: 0 auto;
 }
 
 .growth-stat_section .providers {
@@ -87,7 +101,15 @@
 .providers .see-more {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 100px;
+  color: #532f82;
+}
+
+.providers .see-more > label > span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .providers input[type="radio"] {
