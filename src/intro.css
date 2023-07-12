@@ -82,18 +82,24 @@ button:hover {
   position: relative;
   color: rgb(221, 198, 219);
   margin-bottom: 40px;
+  font-size: 1.2em;
+}
+
+.content p {
+  word-spacing: 10px;
 }
 
 .content > h1 {
   font-size: 2rem;
   color: rgb(231, 229, 229);
-  font-family: Georgia, "Times New Roman", Times, serif;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
 }
 
 .content > h1 > svg {
   position: absolute;
-  top: 80%;
-  right: 25%;
+  left: 60%;
+  top: 70%;
 }
 
 .video-container {
@@ -157,7 +163,11 @@ button:hover {
 
   button {
     width: 20%;
-    padding: 20px 0;
+    padding: 15px 0;
+  }
+
+  .content > * {
+    max-width: 600px;
   }
 
   .content > h1 {
@@ -171,6 +181,6 @@ button:hover {
   .content > h1 > svg {
     position: absolute;
     top: 80%;
-    right: 10%;
+    left: 60%;
   }
 }

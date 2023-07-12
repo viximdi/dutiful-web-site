@@ -125,8 +125,8 @@ const Intro = () => {
             viewBox="0 0 231 35"
             fill="none"
             xmlns="http://www.w3.org/2000/svg">
-            <rect width="231" height="35" fill="#E2A4FF" />
-            <text x="50" y="20" font-size="16" fill="black">
+            <rect width="171" height="35" fill="#E2A4FF" />
+            <text x="30" y="20" font-size="16" fill="black">
               Watch the video
             </text>
           </svg>
