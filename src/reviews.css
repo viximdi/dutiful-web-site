@@ -7,6 +7,7 @@
 
 .reviews-container h3 {
   text-align: center;
+  width: 90%;
 }
 
 .reviews-container > .review-block {
@@ -20,7 +21,6 @@
 
 .reviews-container > .review-block > div {
   width: 100% !important;
-  max-width: 500px;
 }
 
 .reviews-container > .review-block > div > svg {

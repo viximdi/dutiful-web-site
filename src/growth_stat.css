@@ -62,7 +62,7 @@
 
 .growth-stat_section .providers-container > div:first-child h1 {
   font-size: 1.8em;
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   font-family: "Courier New", Courier, monospace;
   font-weight: 900;
@@ -72,7 +72,7 @@
   text-align: center;
   padding-right: 20px;
   color: rgb(98, 85, 103);
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .growth-stat_section .providers-container p {
