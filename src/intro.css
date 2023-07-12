@@ -144,10 +144,9 @@ button:hover {
 @media only screen and (max-width: 1000px) {
   .video-container .deco2 {
     top: 60%;
-    left: 25%;
+    left: 30%;
     z-index: -1;
-    transform: scale(50%);
-    background-color: red;
+    width: 50%;
   }
 }
 
