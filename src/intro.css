@@ -78,7 +78,7 @@ button:hover {
 
 .content > * {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   position: relative;
   color: rgb(221, 198, 219);
   margin-bottom: 40px;
@@ -96,12 +96,11 @@ button:hover {
   font-weight: 900;
   white-space: nowrap;
   word-spacing: -4px;
-  background-color: red;
 }
 
 .content > h1 > svg {
   position: absolute;
-  left: 50%;
+  left: 55%;
   top: 70%;
 }
 
