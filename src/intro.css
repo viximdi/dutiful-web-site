@@ -78,7 +78,7 @@ button:hover {
 
 .content > * {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   position: relative;
   color: rgb(221, 198, 219);
   margin-bottom: 40px;
@@ -96,11 +96,12 @@ button:hover {
   font-weight: 900;
   white-space: nowrap;
   word-spacing: -4px;
+  max-width: 400px;
 }
 
 .content > h1 > svg {
   position: absolute;
-  left: 55%;
+  left: 60%;
   top: 70%;
 }
 
@@ -135,8 +136,8 @@ button:hover {
 }
 
 .video-container .deco2 {
-  top: 60%;
-  left: 50%;
+  top: 70%;
+  left: 35%;
   z-index: -1;
 }
 
@@ -183,6 +184,6 @@ button:hover {
   .content > h1 > svg {
     position: absolute;
     top: 80%;
-    left: 60%;
+    left: 85%;
   }
 }

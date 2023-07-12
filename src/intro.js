@@ -134,7 +134,7 @@ const Intro = () => {
           <iframe
             src="https://www.youtube.com/embed/TpcdSWsVhG8"
             title="YouTube Video Player"
-            frameborder="0"
+            frameborder="5"
             allowfullscreen></iframe>
 
           <svg
