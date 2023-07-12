@@ -90,17 +90,18 @@ button:hover {
 }
 
 .content > h1 {
-  font-size: 2rem;
+  font-size: 1.9rem;
   color: rgb(231, 229, 229);
   font-family: "Courier New", Courier, monospace;
   font-weight: 900;
   white-space: nowrap;
+  word-spacing: -4px;
   background-color: red;
 }
 
 .content > h1 > svg {
   position: absolute;
-  left: 60%;
+  left: 50%;
   top: 70%;
 }
 
