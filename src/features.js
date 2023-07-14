@@ -9,7 +9,7 @@ function Features() {
         <Header />
         <div>
           <div className="box1">
-            <div>
+            <div className="h-text">
               <h4 className="list-head">
                 List and grow your business  with just few clicks
               </h4>
@@ -24,7 +24,7 @@ function Features() {
           </div>
 
           <div className="box2">
-            <div>
+            <div className="h-text">
               <h4>Collect reviews and ratings from customers</h4>
               <p>
                 Accelerate your business reputation by 90% and gain social
@@ -125,7 +125,7 @@ function Features() {
               </div>
               <img src={require("./date.png")} alt="overview" />
             </div>
-            <div>
+            <div className="h-text">
               <h4>Accept and sell appointments</h4>
               <p>
                 Let customers book their own appointment or consultation. Start

@@ -1,13 +1,14 @@
 .sectionf {
   background-color: white;
-  max-width: 100vw;
-  overflow: hidden;
 }
 
 .sectionf header {
   background-color: white;
   border-bottom: 2px solid #603f8b;
   box-shadow: 0px 3px 3px #532f82;
+  position: inherit;
+  top: 0;
+  width: 100%;
 }
 
 .sectionf header .search > circle {
@@ -25,7 +26,7 @@
 }
 
 .sectionf .list-head {
-  font-size: 1.8em;
+  font-size: 2em;
   color: #321b51;
 }
 
@@ -58,19 +59,24 @@ nav > ul .login:hover {
 }
 
 .sectionf > div > div {
-  width: 90%;
+  width: 95%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  padding: 5%;
+  padding: 2%;
   align-items: center;
   justify-content: center;
 }
 
 .sectionf > div > div > div {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
   margin: 0 auto;
+}
+
+.sectionf > div > div > .h-text {
+  max-width: 400px;
+  font-size: 1.3em;
 }
 
 .sectionf > div > .box2 > div:last-child {
@@ -83,8 +89,8 @@ nav > ul .login:hover {
 }
 
 .sectionf > div > .box2 > div:last-child > .img1 {
-  right: 40%;
-  top: 50%;
+  right: 35%;
+  top: 55%;
 }
 
 .sectionf > div > .box2 > div:last-child > .img2 {
@@ -168,7 +174,7 @@ footer {
   }
 
   .sectionf > div > div > div > .phone {
-    transform: scale(170%);
+    transform: scale(190%);
     position: relative;
     left: 20%;
   }

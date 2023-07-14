@@ -19,6 +19,7 @@ footer > .first-child > .links a {
   text-decoration: none;
   font-size: 0.8em;
   color: #c1bec4;
+  margin-bottom: 5px;
 }
 
 footer > .first-child h5 {

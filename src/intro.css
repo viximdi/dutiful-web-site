@@ -51,16 +51,28 @@ main > div:first-child form > div > label {
   height: 100%;
 }
 
-main > div:first-child form > div > label > input {
+main > div:first-child form > div > label > #categorySelect {
   box-sizing: border-box;
   width: 80%;
-  height: 100%;
   padding: 10px;
   background: #391766;
   border: none;
   outline: none;
   color: white;
   font-size: 1rem;
+}
+
+#categorySelect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#categorySelect::-ms-expand {
+  display: none;
 }
 
 button {
