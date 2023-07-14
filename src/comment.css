@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+.comments-container a {
+  position: absolute;
+  left: 70%;
+  top: 40%;
+  max-width: 50px;
+  max-height: 50%;
+}
+
+.comments-container #b {
+  left: 3%;
+}
+
+.comments-container #bd {
+  display: block;
+  transform: rotate(180deg);
+  left: 2%;
+}
+
+.comments-container #bb {
+  transform: rotate(180deg);
+}
+
+.comments-container a > svg {
+  max-width: 100%;
+}
+
+.mobile::-webkit-scrollbar,
+.desktop::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .comments-container .desktop {
+    display: none;
+  }
+
+  .comments-container .mobile {
+    display: flex;
+    overflow-x: auto;
+    position: relative;
+  }
+
+  .comments-container .mobile > div {
+    margin: 5%;
+    min-width: 80% !important;
+    padding: 5%;
+  }
+
+  .comments-container .mobile > div > img {
+    width: 100%;
+    box-shadow: 1px 1px 2px black;
+    background-color: rgba(180, 120, 300, 0.1);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .comments-container .mobile {
+    display: none;
+  }
+
+  .comments-container .desktop {
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .comments-container .desktop > div {
+    display: flex;
+    min-width: 100%;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    padding: 2%;
+    position: relative;
+  }
+
+  .comments-container .desktop > div > div {
+    padding: 2%;
+  }
+
+  .comments-container .desktop > div > div > img {
+    width: 100%;
+  }
+
+  .comments-container a {
+    left: 93%;
+  }
+}
