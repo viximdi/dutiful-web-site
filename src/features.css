@@ -9,6 +9,7 @@
   position: inherit;
   top: 0;
   width: 100%;
+  margin-bottom: 50px;
 }
 
 .sectionf header .search > circle {
@@ -80,26 +81,30 @@ nav > ul .login:hover {
 }
 
 .sectionf > div > .box2 > div:last-child {
+  box-sizing: border-box;
   position: relative;
 }
 
 .sectionf > div > .box2 > div:last-child > img {
+  box-sizing: border-box;
   position: absolute;
-  right: 25%;
+  left: 0;
+  width: 40%;
+  padding: 1%;
 }
 
 .sectionf > div > .box2 > div:last-child > .img1 {
-  right: 35%;
+  left: 40%;
   top: 55%;
 }
 
 .sectionf > div > .box2 > div:last-child > .img2 {
-  right: 45%;
-  top: 10%;
+  left: 40%;
+  top: 15%;
 }
 
 .sectionf > div > .box2 > div:last-child > .img3 {
-  right: -5%;
+  left: 5%;
   top: 35%;
 }
 
